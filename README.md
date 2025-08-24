@@ -1,7 +1,5 @@
 # 📚 Knowledge Graph Chatbot
 
-[![Hugging Face](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)](https://huggingface.co/spaces/samuelolubukun/KnowledgeGraphChatbot)
-
 An interactive chatbot that lets you **ingest documents & URLs**, build a **knowledge graph in Neo4j**, and chat with your knowledge using **LLMs (Cohere / Gemini)**. It combines **structured graph queries** and **vector-based semantic search** to deliver accurate, source-grounded answers.
 
 ---
