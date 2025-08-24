@@ -1,0 +1,16 @@
+gradio
+langchain
+langchain-community
+langchain-experimental
+langchain-google-genai
+neo4j
+beautifulsoup4
+requests
+python-dotenv
+cohere
+json-repair
+unstructured[all-docs]
+pypdf
+python-docx
+openpyxl
+xlrd
