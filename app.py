@@ -10,9 +10,9 @@ import requests
 from bs4 import BeautifulSoup
 
 # --- LangChain core ---
-from langchain.schema import Document
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.prompts import PromptTemplate
+from langchain_core.documents import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_core.prompts import PromptTemplate
 
 # --- Loaders (files) ---
 from langchain_community.document_loaders import (
@@ -27,7 +27,7 @@ from langchain_community.document_loaders import (
 from langchain_community.graphs import Neo4jGraph
 from langchain_community.vectorstores import Neo4jVector
 from langchain_experimental.graph_transformers import LLMGraphTransformer
-from langchain.chains.graph_qa.cypher import GraphCypherQAChain
+from langchain_community.chains.graph_qa.cypher import GraphCypherQAChain
 
 # --- LLMs & Embeddings: Cohere or Gemini ---
 # Cohere
