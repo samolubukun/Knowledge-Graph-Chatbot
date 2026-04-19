@@ -1,7 +1,9 @@
 gradio
 langchain
+langchain-core
 langchain-community
 langchain-experimental
+langchain-text-splitters
 langchain-google-genai
 neo4j
 beautifulsoup4
